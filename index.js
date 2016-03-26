@@ -13,10 +13,10 @@ Icon=text-html
 `;
 }
 
-module.exports = function(url) {
+module.exports = function(url, platform = process.platform) {
   let shortcut;
 
-  if (process.platform == 'darwin' || process.platform == 'win32') {
+  if (platform == 'darwin' || platform == 'win32') {
     shortcut = {
       value: getWinOrOsxShortcut(url),
       ext: 'url'
