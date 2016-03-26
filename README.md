@@ -22,7 +22,7 @@ console.log(shortcut);
 // };
 ```
 
-For Windows and Mac OS X, data for a file with the extension *.url* is generated.
+For Windows and Mac OS X, data for a file with the extension *url* is generated.
 
 - http://fileinfo.com/extension/url
 
@@ -31,7 +31,7 @@ For Windows and Mac OS X, data for a file with the extension *.url* is generated
 URL=http://google.ch
 ```
 
-For Unix-Like operating systems, data for a file with the extension *.desktop* is generated.
+For Unix-Like operating systems, data for a file with the extension *desktop* is generated.
 
 ```
 [Desktop Entry]
